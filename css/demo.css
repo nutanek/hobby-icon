@@ -1,3 +1,37 @@
 body {
-    font-family: Tahoma, Geneva, sans-serif
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #fefefe;
+}
+
+header {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.wrapper {
+    margin: 20px auto;
+    width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+.wrapper > .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper > .row > .col {
+    margin: 20px 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+i {
+    font-size: 4.5em;
 }
