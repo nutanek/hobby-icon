@@ -24,15 +24,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.hobby-guitar:before {
-  content: "\e903";
+.hobby-bicycle:before {
+  content: "\e900";
 }
-.hobby-lisening:before {
-  content: "\e902";
-}
-.hobby-cooking:before {
+.hobby-book:before {
   content: "\e901";
 }
+.hobby-camera:before {
+  content: "\e902";
+}
+.hobby-card:before {
+  content: "\e903";
+}
+.hobby-codeing:before {
+  content: "\e904";
+}
+.hobby-cooking:before {
+  content: "\e905";
+}
+.hobby-football:before {
+  content: "\e906";
+}
+.hobby-game:before {
+  content: "\e907";
+}
+.hobby-guitar:before {
+  content: "\e908";
+}
+.hobby-lisening:before {
+  content: "\e909";
+}
+.hobby-movie:before {
+  content: "\e90a";
+}
+.hobby-shopping:before {
+  content: "\e90b";
+}
 .hobby-singing:before {
-  content: "\e900";
+  content: "\e90c";
+}
+.hobby-tree:before {
+  content: "\e90d";
+}
+.hobby-camping:before {
+  content: "\e90e";
 }
